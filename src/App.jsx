@@ -6,7 +6,7 @@ import { geoPath } from "d3-geo";
 import * as topojson from "topojson-client";
 
 //
-import ap from './maps/andhrapradesh.json';
+import ap from './maps/andhraPradesh.json';
 import ar from './maps/arunachalpradesh.json';
 import as from './maps/assam.json';
 import br from './maps/bihar.json';
