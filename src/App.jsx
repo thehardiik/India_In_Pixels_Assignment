@@ -299,6 +299,7 @@ export default function App() {
     <div 
       className="w-[100vw] h-[100vh] flex flex-col items-center [@media(min-width:550px)]:justify-center  relative bg-white overflow-x-hidden"
       onClick={() => setSelectedState(null)}>
+      {selectedState && <div className="w-full h-full bg-[#000000b3] absolute"></div>}
       <div className="h-[10vh] w-full flex flex-row justify-between items-center  border-b-[1px] shadow-[rgba(0,0,0,0.1)_0px_5px_6px_0px]">
         <p className="ml-5 text-xl font-semibold ">India In Pixels</p>
         <a href="https://github.com/thehardiik/India_In_Pixels_Assignment" className="mr-5 font-semibold pl-4 pr-4 pt-1 pb-1 border-[1px] border-black rounded-3xl">Github</a>
